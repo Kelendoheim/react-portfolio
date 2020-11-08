@@ -5,11 +5,12 @@ import Contact from "./pages/Contact/Contact";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
+import bg from "./images/background.png"
 
 function App() {
   return (
     <Router>
-      <div>
+      <div styles={{ backgroundImage:`url(${bg})` }}>
         <Navigation />
           <Switch>
             <Route exact path="/" component={Home} />
