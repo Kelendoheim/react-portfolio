@@ -78,7 +78,7 @@ const Contact = () => {
                   <a href="mailto:thomas.walsh736@gmail.com">Email</a>
                 </p>
                 <p>
-                  <a href="media/resume1.pdf">Résumé</a>
+                  <a href="https://docs.google.com/document/d/1Z1uaqDfBcriufNkY25_HjJ1J2JMaohBF29hFXNTaU2E/">Résumé</a>
                 </p>
               </ul>
             </div>
