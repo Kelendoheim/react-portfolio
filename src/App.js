@@ -10,7 +10,7 @@ import bg from "./images/background.png"
 function App() {
   return (
     <Router>
-      <div styles={{ backgroundImage:`url(${bg})` }}>
+      <div >
         <Navigation />
           <Switch>
             <Route exact path="/" component={Home} />

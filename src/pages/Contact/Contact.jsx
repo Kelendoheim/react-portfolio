@@ -1,5 +1,6 @@
 const Contact = () => {
   return (
+    <>
     <div className="container">
       {/* <!-- Contact header here --> */}
       <div className="row">
@@ -61,7 +62,7 @@ const Contact = () => {
         <div className="col-sm-4">
           <article className="col-sm-8 mb-5">
             <div className="row">
-              <div clclassNameass="col-sm-12">
+              <div className="col-sm-12">
                 <h1>Links</h1>
               </div>
               <ul>
@@ -86,6 +87,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

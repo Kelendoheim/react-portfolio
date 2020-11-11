@@ -5,7 +5,7 @@ const Home = () => {
     return (
       <>
            {/* <!-- Below is the about me section with 1 image and 2 paragraphs --> */}
-    <div className="container">
+    <div className="container ground">
       <div className="row mb-5">
         <article className="col-sm-8">
           <div className="row">
