@@ -10,7 +10,7 @@ const About = () => {
         <article className="col-sm-8">
           <div className="row">
             <div className="col-sm-12">
-              <h1>About Me</h1>
+              <h1 style={{color: "white"}}>About Me</h1>
             </div>
           </div>
 
@@ -20,7 +20,7 @@ const About = () => {
               src={profile}
               alt="cat pic placeholder"
             />
-            <p className="col-md-4">
+            <p className="col-md-4" style={{color: "white"}}>
               Thomas is a fledgling Full Stack Web Developer with a background
               in Philosophy, French and Music Production. A teacher and student
               both professionally and as a hobby, he finds learning and teaching

@@ -13,7 +13,7 @@ const Portfolio = () => {
         <article className="col-sm-12 mb-5">
           <div className="row">
             <div className="col-sm-12">
-              <h1>Portfolio</h1>
+              <h1 style={{color: "white"}}>Portfolio</h1>
             </div>
           </div>
 
@@ -24,7 +24,7 @@ const Portfolio = () => {
               alt="Cultourist screenshot"
             />
             <div className="col-lg-4">
-              <p>
+              <p style={{color: "white"}}>
                 Cultourist: Know Before You Go
               </p>
               <p>
@@ -44,7 +44,7 @@ const Portfolio = () => {
               alt="password generator screenshot"
             />
             <div className="col-lg-4">
-            <p>
+            <p style={{color: "white"}}>
               README.MD Node Generator
             </p>
             <p>
@@ -60,7 +60,7 @@ const Portfolio = () => {
               alt="Project 1 screenshot"
             />
             <div className="col-lg-4">
-              <p>
+              <p style={{color: "white"}}>
                 Dinner and a Movie
               </p>
               <p>

@@ -7,12 +7,12 @@ const Contact = () => {
         <article className="col-sm-8 mb-5">
           <div className="row">
             <div className="col-sm-12">
-              <h1>Contact</h1>
+              <h1 style={{color: "white"}}>Contact</h1>
             </div>
           </div>
           {/* <!-- Name input below --> */}
           <div className="row pl-3 pr-3">
-            <label for="fname">Name</label>
+            <label for="fname" style={{color: "white"}}>Name</label>
           </div>
           <div className="row pl-3 pr-3">
             <input
@@ -25,7 +25,7 @@ const Contact = () => {
           </div>
           {/* <!-- Email input below --> */}
           <div className="row pl-3 pr-3">
-            <label for="fname">Email</label>
+            <label for="fname" style={{color: "white"}}>Email</label>
           </div>
           <div className="row pl-3 pr-3">
             <input
@@ -38,7 +38,7 @@ const Contact = () => {
           </div>
           {/* <!-- Message/textarea input below --> */}
           <div className="row pl-3 pr-3">
-            <label for="subject">Message</label>
+            <label for="subject" style={{color: "white"}}>Message</label>
           </div>
           <div className="row pl-3 pr-3">
             <textarea
@@ -63,7 +63,7 @@ const Contact = () => {
           <article className="col-sm-8 mb-5">
             <div className="row">
               <div className="col-sm-12">
-                <h1>Links</h1>
+                <h1 style={{color: "white"}}>Links</h1>
               </div>
               <ul>
                 <p>
