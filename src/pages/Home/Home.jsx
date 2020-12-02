@@ -1,42 +1,55 @@
-import profile from "../../images/aboutme.jpeg"
+import mars from "../../images/mars-button.png";
+import {Link} from "react-router-dom";
+
+
+
 
 
 const Home = () => {
-    return (
-      <>
-           {/* <!-- Below is the about me section with 1 image and 2 paragraphs --> */}
-    <div className="container ground">
-      <div className="row mb-5">
-        <article className="col-sm-8">
-          <div className="row">
-            <div className="col-sm-12">
-              <h1 style={{color: "white"}}>About Me</h1>
-            </div>
+
+  function myfunction() {
+    console.log("CLICKED");
+  }
+  return (
+    <>
+      {/* <!-- Below is the about me section with 1 image and 2 paragraphs --> */}
+      <div className="container ground">
+        <article className="col-sm-12">
+          <div className="row" style={{
+                marginTop: "200px",
+              }}> </div>
+              <Link to="/about">
+              <div className="row">
+            <button style={{
+                width: "350px",
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
+                background: "transparent",
+                borderStyle: "none"
+              }}>
+            <img
+              style={{
+                width: "250px",
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+              onClick={myfunction}
+              src={mars}
+              alt="mars"
+            />
+
+            </button>
+            
           </div>
 
-          <div className="row">
-            <img
-              className="col-md-8 img-fluid"
-              src={profile}
-              alt="cat pic placeholder"
-            />
-            <p className="col-md-4" style={{color: "white"}}>
-              Thomas is a fledgling Full Stack Web Developer with a background
-              in Philosophy, French and Music Production. A teacher and student
-              both professionally and as a hobby, he finds learning and teaching
-              to be mirror images of what it means to have a deep engagement
-              with knowledge and information. He excels in abstract thinking and
-              synthesizing ideas from disparate disciplines into effective
-              solutions, regardless of obstacles. Friendly and personable, he is
-              capable of boosting morale or creating an environment for critical
-              analysis as needed. It is also possible that he is a cat.
-            </p>
-          </div>
+              </Link>
+          
         </article>
       </div>
-    </div>
-      </>
-    );
-  };
-  
-  export default Home;
+    </>
+  );
+};
+
+export default Home;
