@@ -13,14 +13,15 @@ const About = () => {
               <h1 style={{color: "white"}}>About Thomas</h1>
             </div>
           </div>
+          </article>
 
           <div className="row">
             <img
-              className="col-md-8 img-fluid"
+              className="col-md-7 "
               src={profile}
               alt="cat pic placeholder"
             />
-            <p className="col-md-4" style={{color: "white"}}>
+            <p className="col-md-5" style={{color: "white"}}>
               Thomas is a MERN Stack Web Developer with a background
               in Philosophy, French and Music Production. A teacher and student
               both professionally and as a hobby, he finds learning and teaching
@@ -32,7 +33,7 @@ const About = () => {
               analysis as needed. It is also possible that he is a cat. 
             </p>
           </div>
-        </article>
+        
       </div>
     </div>
       </>
