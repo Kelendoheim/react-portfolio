@@ -1,4 +1,4 @@
-import projectOne from "../../images/project1.png"
+import gameknight from "../../images/gameknight_home.png"
 import readme from "../../images/readme.png"
 import cultourist from "../../images/cultourist-main.png"
 
@@ -20,13 +20,32 @@ const Portfolio = () => {
           <div className="row">
             <img
               className="col-lg-8 mb-3"
+              src={gameknight}
+              alt="GameKnight screenshot"
+            />
+            <div className="col-lg-4">
+              <h4 style={{color: "white"}}>
+                Game Knight
+              </h4>
+              <p>
+                <a href="https://github.com/Kelendoheim/gameknight">Github Repo</a>
+              </p>
+              <p>
+                <a href="http://gameknight-app.herokuapp.com">Deployed Site</a>
+              </p>
+            </div>
+            </div>
+
+          <div className="row">
+            <img
+              className="col-lg-8 mb-3"
               src={cultourist}
               alt="Cultourist screenshot"
             />
             <div className="col-lg-4">
-              <p style={{color: "white"}}>
+              <h4 style={{color: "white"}}>
                 Cultourist: Know Before You Go
-              </p>
+              </h4>
               <p>
                 <a href="https://github.com/RFlanagan82/cultourist_app">Github Repo</a>
               </p>
@@ -44,33 +63,16 @@ const Portfolio = () => {
               alt="password generator screenshot"
             />
             <div className="col-lg-4">
-            <p style={{color: "white"}}>
+            <h4 style={{color: "white"}}>
               README.MD Node Generator
-            </p>
+            </h4>
             <p>
               <a href="https://github.com/Kelendoheim/node-README-generator">Github Repo</a>
             </p>
           </div>
           </div>
 
-          <div className="row">
-            <img
-              className="col-lg-8 mb-3"
-              src={projectOne}
-              alt="Project 1 screenshot"
-            />
-            <div className="col-lg-4">
-              <p style={{color: "white"}}>
-                Dinner and a Movie
-              </p>
-              <p>
-                <a href="https://github.com/Shahmir22/project-01">Github Repo</a>
-              </p>
-              <p>
-                <a href="https://shahmir22.github.io/project-01/">Deployed Site</a>
-              </p>
-            </div>
-            </div>
+         
         </article>
       </div>
     </div>

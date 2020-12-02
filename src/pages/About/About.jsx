@@ -10,7 +10,7 @@ const About = () => {
         <article className="col-sm-8">
           <div className="row">
             <div className="col-sm-12">
-              <h1 style={{color: "white"}}>About Me</h1>
+              <h1 style={{color: "white"}}>About Thomas</h1>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ const About = () => {
               alt="cat pic placeholder"
             />
             <p className="col-md-4" style={{color: "white"}}>
-              Thomas is a fledgling Full Stack Web Developer with a background
+              Thomas is a MERN Stack Web Developer with a background
               in Philosophy, French and Music Production. A teacher and student
               both professionally and as a hobby, he finds learning and teaching
               to be mirror images of what it means to have a deep engagement
@@ -29,7 +29,7 @@ const About = () => {
               synthesizing ideas from disparate disciplines into effective
               solutions, regardless of obstacles. Friendly and personable, he is
               capable of boosting morale or creating an environment for critical
-              analysis as needed. It is also possible that he is a cat.
+              analysis as needed. It is also possible that he is a cat. 
             </p>
           </div>
         </article>
